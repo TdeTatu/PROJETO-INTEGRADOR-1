@@ -1,3 +1,6 @@
-#cabeçalho{
+#cabecalho{
     background-color: rgb(51, 255, 0);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
 }
