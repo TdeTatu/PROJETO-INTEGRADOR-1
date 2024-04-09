@@ -1,11 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #cabecalho{
-    background-color: rgb(51, 255, 0);
+    background-image: url("/site/imgs/codincat.jpg");
     font-family: "Sticky Memos Demo Regular";
     font-size: 50px;
     text-align: center;
+    width: 100%;
+    height: 150%;
+    
     /* so pra comit */
 }
 
-#tronco-container{
-   background-image: url("C:\Users\jonatas.luizgs\Desktop\PROJETO-INTEGRADOR-1\PROJETO-INTEGRADOR-1\site\imgs\codincat.jpg");
-}
+/* MENU */
+.nav {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  ul {
+    margin: 0 auto;
+    padding: 0 100px;
+    border: 0;
+    list-style: none;
+  }
+  
+  ul li {
+    display: inline-block;
+    color: white;
+    font: Helvetica;
+    font-size: 100%;
+    outline: 0 none;
+   font-size: 10px;
+  }
+  
+  ul li + li{
+    margin-left:10px;
+  }6
+  
