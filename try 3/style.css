@@ -305,6 +305,9 @@ span{
 .download-box {
     background-color: var(--main-color);
     height: 300px;
+    width: (100% / 2 - 20px);
+    display: flex;
+    justify-content: space-evenly;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
@@ -336,6 +339,34 @@ span{
     font-weight: 400;
     max-height: 100px;
     margin: auto;
+}
+.button {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.button label{
+    height: 15px;
+    width: 15px;
+    background: #ffffff;
+    margin: 0 4px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.button label.active{
+    width: 35px;
+}
+#botaoum:checked ~ .button label.botaoum{
+    width: 35px;
+}
+#botaodois:checked ~ .button label.botaodois{
+    width: 35px;
+}
+#botaodois:checked ~ .button label.botaoum{
+    width: 15px;
+}
+#botaoum:checked ~ .button label.botaodois{
+    width: 15px;
 }
 @media (max-width:991px){
     section {
