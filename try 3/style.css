@@ -52,7 +52,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .logo {
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--main-color);
     font-weight: 800;
     cursor: pointer;
