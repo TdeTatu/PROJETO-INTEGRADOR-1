@@ -397,7 +397,8 @@ span{
     color: var(--text-color);
     border-radius: 1rem;
     padding: 2rem;
-    width: 70%;
+    width: 80%;
+    padding-right: 2px;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 5rem;
@@ -408,6 +409,7 @@ span{
     grid-template-columns: repeat(6, 1fr);
     flex-wrap: wrap;
     gap: 1.8rem;
+    justify-content: center;
 }
 .quem .container .bar{
     margin-bottom: 15px;
@@ -416,6 +418,7 @@ span{
     background: var(--bg-color);
     transition: 0.3s ease;
     cursor: pointer;
+    
 }
 .quem .container .bar:hover{
     box-shadow: 0 4px 10px var(--off-part2);
@@ -432,6 +435,35 @@ span{
     font-size: 2rem;
     font-weight: 500;
     margin-left: 0.5rem;
+}
+.quem .container .bar .info .media-icons{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.quem .container .bar .info .media-icons a{
+    height: 15px;
+    width: 35px;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--main-color);
+    margin: 0 4px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 15px;
+    padding-left: 2px;
+}
+.quem .container .bar .info .media-icons a:hover{
+    background: #000000;
+    color: #ffffff;
+    height: 40px;
+    width: 37px;
+    font-size: 25px;
+    margin: 0 4px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
 }
 @media screen and (max-width:600px) {
     .quem .container{
